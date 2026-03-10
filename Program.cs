@@ -1,4 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
 #region 1 ci tapsiriq
@@ -233,7 +234,7 @@
 //}
 #endregion
 
-# region 19 cu tapsiriq
+#region 19 cu tapsiriq
 
 //double b;
 //double endirim;
@@ -247,9 +248,9 @@
 //    Console.WriteLine(endirim);
 //}
 
-# endregion
+#endregion
 
-# region 20 ci tapsiriq 
+#region 20 ci tapsiriq 
 
 //int[] userage = { 23, 34, 19, 65, 40, 66, 29, 35, 67, 64, 60, 32, 57 };
 
@@ -261,11 +262,11 @@
 //    } 
 //}
 
-# endregion
+#endregion
 
 
 
-# region 18 ci tapsiriq
+#region 18 ci tapsiriq
 
 
 //Console.WriteLine("a ni daxil et :");
@@ -305,33 +306,74 @@
 //        else
 //        {
 //            Console.WriteLine(a / b);
-            
+
 //        }
 //        break;
 
 
 //    case "%":
-//        if (b ==0)
-//        {
-//            Console.WriteLine("0 ra bolmek okmaz!!!");
-//        }
-//        else
-//        {
-//            Console.WriteLine(a % b);
-            
-//        }
-//        break;
+//    if (b ==0)
+//    {
+//        Console.WriteLine("0 ra bolmek okmaz!!!");
+//    }
+//    else
+//    {
+//        Console.WriteLine(a % b);
 
-//            case "^":
-//                Console.WriteLine(Math.Pow(a, b));
-//                break;
+//    }
+//    break;
 
-//            default:
-//                Console.WriteLine("sehv operator");
-//                break;
+//case "^":
+//    Console.WriteLine(Math.Pow(a, b));
+//    break;
+
+//default:
+//    Console.WriteLine("sehv operator");
+//    break;
 
 
-//            }
+//}
+#endregion
+
+#region 21 ci tapsiriq
+
+Console.WriteLine("1 ci terefi daxil et:");
+Console.WriteLine("2 ci terefi daxil et:");
+Console.WriteLine("3 cu terefi daxil et:");
+
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+int c = Convert.ToInt32(Console.ReadLine());
+
+if ((a*a + b*b == c*c) || (a*a + c*c == b*b) || (b*b + c*c == a*a))
+{
+    Console.WriteLine("duzbucaqli ucbucaqdir");
+}
+
+else
+{
+    Console.WriteLine("duzbucaqli ucbucaq deyil");
+}
+
+if ((a == b && b != c && a != c ) || (a == c && a != b && c != b) || (b == c && b != a && a != c))
+{
+    Console.WriteLine("bereaber yanli ucbucaqdir");
+}
+else
+{
+    Console.WriteLine("bereaber yanli ucbucaq deyil;");
+}
+
+
+if ((a == b && b == c && a == c) || (a == c && a == b && c == b) || (b == c && b == a && a == c))
+{
+    Console.WriteLine("bereaber terefli ucbucaqdir");
+}
+else
+{
+    Console.WriteLine("bereaber terefli ucbucaq deyil;");
+}
+
 
 
 
@@ -350,6 +392,25 @@
 
 
 # endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
