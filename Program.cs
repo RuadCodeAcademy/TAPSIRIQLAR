@@ -350,30 +350,18 @@ if ((a*a + b*b == c*c) || (a*a + c*c == b*b) || (b*b + c*c == a*a))
     Console.WriteLine("duzbucaqli ucbucaqdir");
 }
 
-else
-{
-    Console.WriteLine("duzbucaqli ucbucaq deyil");
-}
-
-if ((a == b && b != c && a != c ) || (a == c && a != b && c != b) || (b == c && b != a && a != c))
+else if ((a == b && b != c && a != c ) || (a == c && a != b && c != b) || (b == c && b != a && a != c))
 {
     Console.WriteLine("bereaber yanli ucbucaqdir");
 }
-else
-{
-    Console.WriteLine("bereaber yanli ucbucaq deyil;");
-}
 
 
-if ((a == b && b == c && a == c) || (a == c && a == b && c == b) || (b == c && b == a && a == c))
+else if ((a == b && b == c && a == c) || (a == c && a == b && c == b) || (b == c && b == a && a == c))
 {
     Console.WriteLine("bereaber terefli ucbucaqdir");
 }
-else
-{
-    Console.WriteLine("bereaber terefli ucbucaq deyil;");
-}
 
+else Console.WriteLine("muxtelif terefli ucbucaqdir");
 
 
 
