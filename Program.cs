@@ -434,14 +434,130 @@
 
 #region 3 cu tapsiriq metod
 
+//string Muqayise(int number)
+//{
+//    if(number >= 100)
+//    {
+//        return "Boyuk";
+//    }
+
+//    else
+//    {
+//        return "Kicik";
+//    }
+//}
+
+//Console.WriteLine(" ededi daxil et:");
+//string result = Muqayise(Convert.ToInt32(Console.ReadLine()));
+//Console.WriteLine(result);
+
+#endregion
 
 
 
+#region 4 cu tapsiriq metod
+//string Yas(int number)
+//{
+//    if (number > 18)
+//    {
+//        return "Adult";
+//    }
+
+//    else if (number < 18)
+//    {
+//        return "Child";
+//    }
+
+//    else return "18 e beraberdir";
+//}
 
 
+//Console.WriteLine(" ededi daxil et:");
+//string result = Yas(Convert.ToInt32(Console.ReadLine()));
+//Console.WriteLine(result);
 
 
 #endregion
+
+
+#region 5 ci  tapsiriq metod
+
+//string Menfimusbet(int number)
+//{
+//    if (number > 0)
+//    {
+//        return "Musbet";
+//    }
+
+//    else if (number < 0)
+//    {
+//        return "menfi";
+//    }
+
+//    else return "0 ne musbet nede menfidir";
+//}
+
+
+//Console.WriteLine(" ededi daxil et:");
+//string result = Menfimusbet(Convert.ToInt32(Console.ReadLine()));
+//Console.WriteLine(result);
+# endregion
+
+# region 6 ci tapsiriq
+//void Heftegunu(int num)
+//{
+//    switch (num)
+//    {
+//        case 1:
+//            Console.WriteLine("Monday");
+//            break;
+
+//        case 2:
+//            Console.WriteLine("Monday");
+//            break;
+
+//        case 3:
+//            Console.WriteLine("Tuesday");
+//            break;
+
+//        case 4:
+//            Console.WriteLine("Wednesday");
+//            break;
+
+//        case 5:
+//            Console.WriteLine("Thursday");
+//            break;
+
+//        case 6:
+//            Console.WriteLine("Friday");
+//            break;
+
+//        case 7:
+//            Console.WriteLine("Saturday");
+//            break;
+
+//        default:
+//            Console.WriteLine("Invaid day");
+//            break;
+
+//    }
+//}
+
+
+//Console.WriteLine("Heftenin gununu daxil et:");
+//Heftegunu(Convert.ToInt32(Console.ReadLine()));
+
+#endregion
+
+
+
+
+
+
+
+
+
+
 
 
 
