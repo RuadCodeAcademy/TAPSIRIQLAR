@@ -337,49 +337,113 @@
 
 #region 21 ci tapsiriq
 
-Console.WriteLine("1 ci terefi daxil et:");
-Console.WriteLine("2 ci terefi daxil et:");
-Console.WriteLine("3 cu terefi daxil et:");
+//Console.WriteLine("1 ci terefi daxil et:");
+//Console.WriteLine("2 ci terefi daxil et:");
+//Console.WriteLine("3 cu terefi daxil et:");
 
-int a = Convert.ToInt32(Console.ReadLine());
-int b = Convert.ToInt32(Console.ReadLine());
-int c = Convert.ToInt32(Console.ReadLine());
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = Convert.ToInt32(Console.ReadLine());
+//int c = Convert.ToInt32(Console.ReadLine());
 
-if ((a*a + b*b == c*c) || (a*a + c*c == b*b) || (b*b + c*c == a*a))
-{
-    Console.WriteLine("duzbucaqli ucbucaqdir");
-}
+//if ((a*a + b*b == c*c) || (a*a + c*c == b*b) || (b*b + c*c == a*a))
+//{
+//    Console.WriteLine("duzbucaqli ucbucaqdir");
+//}
 
-else if ((a == b && b != c && a != c ) || (a == c && a != b && c != b) || (b == c && b != a && a != c))
-{
-    Console.WriteLine("bereaber yanli ucbucaqdir");
-}
-
-
-else if ((a == b && b == c && a == c) || (a == c && a == b && c == b) || (b == c && b == a && a == c))
-{
-    Console.WriteLine("bereaber terefli ucbucaqdir");
-}
-
-else Console.WriteLine("muxtelif terefli ucbucaqdir");
+//else if ((a == b && b != c && a != c ) || (a == c && a != b && c != b) || (b == c && b != a && a != c))
+//{
+//    Console.WriteLine("bereaber yanli ucbucaqdir");
+//}
 
 
+//else if ((a == b && b == c && a == c) || (a == c && a == b && c == b) || (b == c && b == a && a == c))
+//{
+//    Console.WriteLine("bereaber terefli ucbucaqdir");
+//}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+//else Console.WriteLine("muxtelif terefli ucbucaqdir");
 
 # endregion
+
+
+#region 1 ci tapsiriq metod
+//string SayHello(string name = "Student")
+//{
+//    return $"Hello, {name}";
+//}
+
+//string sentence = SayHello("Ruad");
+//Console.WriteLine(sentence);
+
+//int Muqayise(int number1, int number2)
+//{
+//    if (number1 > number2)
+//    {
+//        return number1;
+//    }
+
+//    else if (number2 > number1)
+//    {
+//        return number2;
+//    }
+
+
+//    else
+//    {
+//        return 0;
+//    }
+//}
+
+//int result = Muqayise(2, 2);
+
+//if (result == 0)
+//{
+//    Console.WriteLine("ededler beraberdir");
+//}
+//else
+//{
+//    Console.WriteLine(result);
+//}
+
+# endregion
+
+
+#region 2 ci tapsiriq metod
+
+
+
+//string Bolunme(int number)
+//{
+//    if (number % 2 == 0)
+//    {
+//        return "2 e bolunur";
+//    }
+
+//    else
+//    {
+//        return "2 e bolunmur";
+//    }
+
+//}
+
+//Console.WriteLine(Bolunme(4));
+
+# endregion
+
+
+
+#region 3 cu tapsiriq metod
+
+
+
+
+
+
+
+
+#endregion
+
+
 
 
 
