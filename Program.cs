@@ -550,6 +550,142 @@
 #endregion
 
 
+#region 7 ci tap Ededin kubunu hesablayan alqoritm yazin. (Method)
+
+//static int Ededinkubu(int a)
+//{
+//    int result = a*a*a;
+//    return result;
+//}
+
+//Console.WriteLine(Ededinkubu(3));
+
+#endregion
+
+
+# region  8 ci  tap Aylarin gunlerini cixaran alqoritm yazin. (Mes, 10 daxil etdiz, Oktyabr 31 gundur deye 31 cixarsin). (Method)
+
+//using System;
+
+//void Aylaringunleri(int num)
+//{
+//    switch (num)
+//    {
+//        case 1:
+//        case 3:
+//        case 5:
+//        case 7:
+//        case 8:
+//        case 10:
+//        case 12:
+//            Console.WriteLine("31 gun");
+//            break;
+
+//        case 2:
+//            Console.WriteLine("28 gun");
+//            break;
+
+
+
+//        case 4:
+//        case 6:
+//        case 9:
+//        case 11:
+//            Console.WriteLine("30 gun");
+//            break;
+
+
+//        default:
+//            Console.WriteLine("ay duzgun daxil edilmeyib");
+//            break;
+//    }
+//}
+
+
+//Console.WriteLine("ayi daxil et");
+//int a = Convert.ToInt32(Console.ReadLine());
+//Aylaringunleri(a);
+
+# endregion
+
+
+# region 14. [20, 34, 21, 98, 45, 12, 34, 65, 11, 34, 54, 30] - bu arrayda 3e bolunen ededleri cixarin. (Method) params
+
+//int[] numbers = { 20, 34, 21, 98, 45, 12, 34, 65, 11, 34, 54, 30 };
+
+//void Ededler3ebolunen(params int[] numbers)
+//{
+//    for(int i =0; i < numbers.Length; i++)
+//    {
+//        if (numbers[i] % 3 == 0)
+//        {
+//            Console.WriteLine(numbers[i]);
+//        }
+//    }
+//}
+
+//Ededler3ebolunen(numbers);
+
+
+
+
+# endregion
+
+
+# region Yuxaridaki arrayin minimal ve maksimal ededlerini, bir de ededi ortasini hesablayib capa cixarin. (Method) params
+
+//int[] numbers = { 20, 34, 21, 98, 45, 12, 34, 65, 11, 34, 54, 30 };
+
+//static void MinMaxAverage(params int[] numbers)
+//{
+//    Array.Sort(numbers);
+//    Console.WriteLine("minimum"+" "+ numbers[0]);
+
+//    Array.Reverse(numbers);
+//    Console.WriteLine("maksimum"+" "+ numbers[0]);
+
+//    int sum = 0;
+//    int count = 0;
+
+//    for(int i = 0; i < numbers.Length; i++)
+//    {
+//        sum+=numbers[i];
+//        count+=1;
+//    }
+
+//    decimal Average = sum/count;
+//    Console.WriteLine("ededi orta "+" "+ Average);
+//}
+//MinMaxAverage(numbers);
+
+#endregion
+
+
+
+# region 31. Bir metod yazin, sizden 2 int deyer alsin, neticede yerleri deyismis cixsin. Meselen, (num1 = 1; num2 = 2; daxil edilerse, geriye num num1 = 2; num2 = 1 cixsin)
+
+//static void Yerdeyisme(int number1, int number2)
+//{
+//    int number3 = number1;
+//    number1 = number2;
+//    number2 =number3;
+
+//    Console.WriteLine("number1 ="+" "+number1);
+//    Console.WriteLine("number2 ="+" "+number3);
+//}
+//Yerdeyisme(2, 3);
+
+# endregion
+
+#region 32. Bir metod yazın ki, ref ilə ötürülən ədədin üzərinə 10 əlavə etsin. (ref)
+
+
+
+# endregion
+
+
+
+
 
 
 

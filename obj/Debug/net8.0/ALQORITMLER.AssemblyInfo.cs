@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ALQORITMLER")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f7e9d088762ffb6e08e4ba7693fe620990d3143")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddddf16683ec8c100aa43d9f26fb4e8b53f5187d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ALQORITMLER")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ALQORITMLER")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
